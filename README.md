@@ -7,6 +7,7 @@ Bài thực hành mô phỏng một mạng OSPF đơn vùng (single-area) sử d
 
 Sơ đồ mạng (Topology)
 Tham khảo topology.png để có cái nhìn trực quan về mạng OSPF.
+![image alt](https://github.com/vinhlap179/NT132.Q24-Nhom11/blob/main/topology.png)
 
 Điều kiện tiên quyết
 Đã cài đặt Docker và Docker Compose trên máy của bạn.
