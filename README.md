@@ -1,11 +1,12 @@
 Bài thực hành OSPF với Docker Container
+
 Bài thực hành này trình bày cách thiết lập và cấu hình mạng OSPF bằng cách sử dụng các Docker container. Bài thực hành bao gồm các Dockerfile đã được cấu hình sẵn, các tập lệnh (script) để xây dựng và triển khai mạng, cùng với một sơ đồ mạng (topology) để hướng dẫn quá trình thiết lập.
 
 Tổng quan bài thực hành
 Bài thực hành mô phỏng một mạng OSPF đơn vùng (single-area) sử dụng Docker container. Mỗi container đóng vai trò là một bộ định tuyến (router) hoặc máy chủ (host), chạy FRR (Free Range Routing) để cấu hình và kiểm tra OSPF.
 
 Sơ đồ mạng (Topology)
-Tham khảo topology-6.1.png để có cái nhìn trực quan về mạng OSPF.
+Tham khảo topology.png để có cái nhìn trực quan về mạng OSPF.
 
 Điều kiện tiên quyết
 Đã cài đặt Docker và Docker Compose trên máy của bạn.
